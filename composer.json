@@ -1,0 +1,22 @@
+{
+    "name": "4ernovm/cms-detector",
+    "description": "Package for detecting CMS installed based on certain dirs, files and their contents.",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "authors": [
+        {
+            "name": "Michael Chernov",
+            "email": "4ernovm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Chernoff\\CMSDetector\\": "src/CMSDetector"
+        }
+    }
+}
