@@ -15,4 +15,16 @@ Add `4ernovm/cms-detector` as a requirement to composer.json:
     }
 }
 ```
+
+Add repository information:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/4ernovm/cms-detector"
+    }
+],
+```
+
 And then run `composer update`
